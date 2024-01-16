@@ -7,7 +7,7 @@ Main Screen
 
 Backup Camera
 I used the QML Camera type for this, as I didn't need the features offered by the QML type. All I wanted it to do was display video output.
-![Main Screen](demoImages/backupCameraz.mp4)
+![Backup Camera](demoImages/backupCameraz.mp4)
 
 
 Backup Camera Guidelines Implementation
