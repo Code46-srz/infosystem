@@ -47,9 +47,12 @@ Rectangle {
         id: viewfinder
         anchors.fill: parent
         fillMode: Multimedia.VideoOutput.Stretch
+
         // autoOrientation: true
 
+
     }
+
     function handleScroll(delta) {
 
         if (delta > 0) {
@@ -102,45 +105,6 @@ Rectangle {
                 eulerRotation.x: -67.75933
             }
 
-            //                PerspectiveCamera {
-            //                    id: sceneCamera
-            //                    x: 2498.833
-            //                    y: 1009.594
-            //                    eulerRotation.z: 0
-            //                    eulerRotation.y: 90
-            //                    eulerRotation.x: -22
-            //                    z: 0.00016
-            //                }
-
-            //                LineGuide {
-            //                    id: lineGuide
-            //                    scale.z: 200
-            //                    scale.y: 200
-            //                    scale.x: 200
-            ////                    rightAngle: console.log(rightAngle)
-            ////                    leftAngle: console.log(eftAngle)
-            //                    //delta: console.log(wheelState)
-            //                }
-
-            //                PerspectiveCamera {
-            //                    id: sceneCamera
-            //                    x: 1754.013
-            //                    y: 486.431
-            //                    eulerRotation.z: 0
-            //                    eulerRotation.y: 90
-            //                    eulerRotation.x: -15.5
-            //                    z: 0
-            //                }
-
-            //                LineGuide {
-            //                    id: lineGuide
-            //                    eulerRotation.z: 4.58366
-            //                    eulerRotation.y: 0
-            //                    eulerRotation.x: 0
-            //                    scale.z: 200
-            //                    scale.y: 200
-            //                    scale.x: 200
-            //                }
             PerspectiveCamera {
                 id: sceneCamera
                 x: 590.766
